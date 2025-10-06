@@ -11,9 +11,9 @@ import json
 
 try:
     from llm import find_and_print_crop_data , llm_response
-    print("✅ find_and_print_crop_data imported successfully!")
+   
 except ImportError as e:
-    print("❌ Error importing llm:", e)
+    print(" Error importing llm:", e)
 
 
 # Configure logging
@@ -150,17 +150,16 @@ def translate_urdu_to_english(text):
 
 if __name__ == "__main__":
     print("🚀 Pakistani Farming Chatbot Backend Started!")
-    print("📍 Server running on: http://localhost:5000")
-    print("🎤 Send WebM audio recordings to: POST http://localhost:5000/process_audio")
-    print("✅ WebM to WAV conversion enabled!")
 
     spath = 'data.json'
-
     try:
-        # Load the knowledge base from the JSON file
         with open(spath, 'r', encoding='utf-8') as f:
             crop_kb = json.load(f)
-        print(f"Successfully loaded knowledge base from '{spath}'")
-    except:
-          print("failure")
-    app.run(debug=True, port=5000)
+        print(f" Successfully loaded knowledge base from '{spath}'")
+    except Exception as e:
+        print(f"⚠️ Failed to load knowledge base: {e}")
+        crop_kb = {}
+
+    #  Use Railway-assigned port
+    port = int(os.environ.get("PORT", 8080))
+    app.run(host="0.0.0.0", port=port)
