@@ -1,0 +1,22 @@
+flask
+flask-cors
+speechrecognition
+pyaudio
+groq
+python-dotenv
+
+requests
+
+librosa
+soundfile
+numpy
+
+# For ML or audio models
+torch
+
+
+# For file management
+pydub
+
+# If you are using Groq API client
+gunicorn

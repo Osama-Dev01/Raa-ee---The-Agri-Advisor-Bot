@@ -1,0 +1,362 @@
+{
+  "wheat": {
+    "common_pests": ["Aphids", "Armyworms", "Termites", "Wheat Midge", "Shoot Fly"],
+    "growth_stages": ["germination", "tillering", "stem_elongation", "boot", "heading", "flowering", "milk", "dough", "ripening"],
+    "common_issues": {
+      "yellow_leaves": {
+        "causes": ["nitrogen_deficiency", "water_logging", "rust_infection (yellow rust)"],
+        "solutions": ["apply_urea_fertilizer", "ensure_proper_drainage", "use_approved_fungicide_spray"]
+      },
+      "stunted_growth": {
+        "causes": ["root_rot_nematodes", "soil_compaction", "drought_stress", "zinc_deficiency"],
+        "solutions": ["practice_crop_rotation", "improve_soil_tillage", "ensure_timely_irrigation", "apply_zinc_sulfate"]
+      }
+    },
+    "water_requirements": {
+      "critical_stages": ["crown_root_initiation", "tillering", "heading", "grain_formation"],
+      "efficiency_tips": ["Adopt raised bed technology", "Use laser land leveling", "Schedule irrigation based on weather forecasts"]
+    }
+  },
+  "rice": {
+    "common_pests": ["Rice Stem Borer", "Plant Hoppers", "Leaf Folder", "White Backed Plant Hopper"],
+    "growth_stages": ["nursery", "transplanting", "tillering", "panicle_initiation", "booting", "heading", "milking", "maturity"],
+    "common_issues": {
+      "drying_leaves": {
+        "causes": ["bacterial_blight", "water_stress", "blast_disease"],
+        "solutions": ["use_disease-resistant_varieties", "maintain_consistent_water_level", "apply_recommended_bactericides_or_fungicides"]
+      },
+      "empty_grains": {
+        "causes": ["heat_stress_during_flowering", "boron_deficiency", "pest_damage (borers)"],
+        "solutions": ["adjust_planting_time_to_avoid_peak_heat", "apply_borax_solution", "implement_integrated_pest_management"]
+      }
+    },
+    "water_requirements": {
+      "critical_stages": ["transplanting", "tillering", "panicle_initiation"],
+      "efficiency_tips": ["Practice alternate wetting and drying (AWD)", "Use direct seeding of rice (DSR) method", "Ensure well-puddled and level fields to reduce seepage"]
+    }
+  },
+  "cotton": {
+    "common_pests": ["Pink Bollworm", "Cotton Whitefly", "Jassids", "Thrips", "Spotted Bollworm"],
+    "growth_stages": ["seedling", "squaring_(flower_bud)", "flowering", "boll_development", "boll_opening"],
+    "common_issues": {
+      "leaf_curl_virus_(CLCV)": {
+        "causes": ["transmission_by_whitefly", "susceptible_varieties", "high_pest_pressure"],
+        "solutions": ["use_CLCV-resistant_varieties", "control_whitefly_population", "remove_and_destroy_infected_plants"]
+      },
+      "boll_shedding": {
+        "causes": ["high_temperature", "water_stress", "nutrient_deficiency_(nitrogen_or_potash)"],
+        "solutions": ["apply_light_irrigation_during_heatwaves", "ensure_adequate_moisture_at_fruiting", "apply_balanced_fertilizers"]
+      }
+    },
+    "water_requirements": {
+      "critical_stages": ["squaring", "flowering", "boll_development"],
+      "efficiency_tips": ["Use drip irrigation systems", "Apply water based on soil moisture monitoring", "Avoid excessive irrigation to prevent vegetative growth"]
+    }
+  },
+  "sugarcane": {
+    "common_pests": ["Sugarcane Borer", "Pyrilla", "Termites", "Black Bug", "Mealybug"],
+    "growth_stages": ["germination", "tillering", "grand_growth_phase", "maturity_and_ripening"],
+    "common_issues": {
+      "red_rot_disease": {
+        "causes": ["fungal_pathogen", "infected_seed_canes_(setts)", "waterlogged_conditions"],
+        "solutions": ["use_certified_disease-free_setts", "practice_hot_water_treatment_of_setts", "ensure_good_field_drainage"]
+      },
+      "poor_germination": {
+        "causes": ["poor_quality_setts", "soil_moisture_stress", "termite_attack"],
+        "solutions": ["select_healthy_and_viable_setts", "ensure_proper_soil_moisture_at_planting", "apply_recommended_insecticide_for_termite_control"]
+      }
+    },
+    "water_requirements": {
+      "critical_stages": ["formative_stage_(first_4_months)", "grand_growth_phase"],
+      "efficiency_tips": ["Implement trench planting and irrigation", "Use drip irrigation for ratoon crops", "Mulch with trash to conserve soil moisture"]
+    }
+  },
+  "maize": {
+    "common_pests": ["Maize Stem Borer", "Fall Armyworm", "Aphids", "Shoot Fly"],
+    "growth_stages": ["emergence", "vegetative_stages_(V1-Vn)", "tasseling", "silking", "blister", "milk", "dough", "dent", "physiological_maturity"],
+    "common_issues": {
+      "fall_armyworm_damage": {
+        "causes": ["invasive_pest_infestation", "late_detection", "monocropping"],
+        "solutions": ["scout_fields_regularly", "apply_biopesticides_or_recommended_insecticides", "practice_intercropping_with_repellent_plants"]
+      },
+      "poor_grain_filling": {
+        "causes": ["drought_stress_during_silking", "potassium_deficiency", "high_plant_density"],
+        "solutions": ["provide_critical_irrigation_at_silking_and_tasseling", "ensure_balanced_fertilization_with_potash", "maintain_optimal_plant_population"]
+      }
+    },
+    "water_requirements": {
+      "critical_stages": ["tasseling", "silking", "grain_filling"],
+      "efficiency_tips": ["Use furrow irrigation or sprinkler systems", "Schedule irrigation based on crop evapotranspiration", "Practice conservation tillage to retain soil moisture"]
+    }
+  },
+  "mango": {
+    "common_pests": ["Mango Hopper", "Fruit Fly", "Mealybug", "Stem Borer"],
+    "growth_stages": ["vegetative_growth", "flowering", "fruit_set", "fruit_development", "maturity_and_harvesting"],
+    "common_issues": {
+      "fruit_drop": {
+        "causes": ["fungal_diseases_(anthracnose)", "insect_attack", "sudden_temperature_change", "hormonal_imbalance"],
+        "solutions": ["apply_fungicidal_sprays", "control_hopper_and_fruit_fly", "provide_light_irrigation_during_fruit_set", "use_hormone_sprays_like_planofix"]
+      },
+      "malformation": {
+        "causes": ["fungal_pathogen_complex", "mite_infestation", "nutritional_imbalance"],
+        "solutions": ["prune_and_destroy_malformed_panicles", "apply_acaricide_sprays", "ensure_balanced_nutrition"]
+      }
+    },
+    "water_requirements": {
+      "critical_stages": ["prior_to_flowering", "fruit_set", "fruit_development"],
+      "efficiency_tips": ["Use drip irrigation with ring basin method", "Avoid irrigation during peak flowering", "Apply mulch around the tree base to conserve moisture"]
+    }
+  },
+  "citrus": {
+    "common_pests": ["Citrus Psylla", "Leaf Miner", "Whitefly", "Citrus Canker"],
+    "growth_stages": ["new_flush", "flowering", "fruit_set_('June'_drop)", "fruit_development", "maturation"],
+    "common_issues": {
+      "citrus_greening_(huanglongbing)": {
+        "causes": ["bacterium_spread_by_citrus_psylla", "infected_nursery_stock", "lack_of_quarantine"],
+        "solutions": ["control_citrus_psylla_vector", "use_certified_disease-free_plants", "remove_and_destroy_infected_trees_immediately"]
+      },
+      "fruit_cracking": {
+        "causes": ["irregular_watering", "boron_or_calcium_deficiency", "extreme_weather_fluctuations"],
+        "solutions": ["maintain_consistent_soil_moisture", "apply_boron_and_calcium_foliar_sprays", "provide_windbreaks_and_mulch"]
+      }
+    },
+    "water_requirements": {
+      "critical_stages": ["flowering", "fruit_set", "fruit_enlargement"],
+      "efficiency_tips": ["Adopt drip or micro-sprinkler irrigation", "Schedule irrigation based on soil type and climate", "Mulch to reduce evaporation"]
+    }
+  },
+  "potato": {
+    "common_pests": ["Potato Tuber Moth", "Jassids", "Cutworms", "Aphids"],
+    "growth_stages": ["sprouting", "vegetative_growth", "tuber_initiation", "tuber_bulking", "maturity"],
+    "common_issues": {
+      "late_blight": {
+        "causes": ["fungus-like_pathogen_(phytophthora_infestans)", "cool_and_moist_weather", "infected_seed_tubers"],
+        "solutions": ["use_certified_disease-free_seed", "apply_preventive_and_curative_fungicides", "practice_crop_rotation"]
+      },
+      "hollow_heart": {
+        "causes": ["rapid_tuber_growth_due_to_uneven_watering", "inconsistent_soil_moisture", "nutrient_imbalance"],
+        "solutions": ["maintain_uniform_soil_moisture", "ensure_balanced_plant_nutrition", "choose_less_susceptible_varieties"]
+      }
+    },
+    "water_requirements": {
+      "critical_stages": ["tuber_initiation", "tuber_bulking"],
+      "efficiency_tips": ["Use furrow or sprinkler irrigation", "Avoid water stress to prevent secondary growth and cracking", "Stop irrigation 2 weeks before harvesting"]
+    }
+  },
+  "onion": {
+    "common_pests": ["Onion Thrips", "Cutworms", "Onion Maggot"],
+    "growth_stages": ["germination", "leaf_development", "bulb_initiation", "bulb_development", "maturity"],
+    "common_issues": {
+      "downy_mildew": {
+        "causes": ["fungal_pathogen", "high_humidity_and_cool_nights", "poor_air_circulation"],
+        "solutions": ["apply_protective_fungicides", "use_wider_spacing_for_better_air_flow", "practice_crop_rotation"]
+      },
+      "bolting_(premature_flowering)": {
+        "causes": ["stress_from_cold_snaps_or_drought", "transplanting_oversized_seedlings", "variety_susceptibility"],
+        "solutions": ["plant_at_the_correct_time_for_your_region", "use_appropriate_sized_transplants", "maintain_consistent_moisture"]
+      }
+    },
+    "water_requirements": {
+      "critical_stages": ["bulb_initiation", "bulb_enlargement"],
+      "efficiency_tips": ["Implement drip irrigation to keep foliage dry", "Shallow and frequent watering is ideal", "Stop irrigation when tops start to fall over"]
+    }
+  },
+  "tomato": {
+    "common_pests": ["Fruit Borer", "Whitefly", "Aphids", "Leaf Miner"],
+    "growth_stages": ["seedling", "vegetative_growth", "flowering", "fruit_set", "fruit_maturation_and_ripening"],
+    "common_issues": {
+      "blossom_end_rot": {
+        "causes": ["calcium_deficiency", "inconsistent_watering", "root_damage"],
+        "solutions": ["ensure_adequate_calcium_in_soil", "maintain_consistent_moisture_with_mulching", "avoid_deep_cultivation_near_roots"]
+      },
+      "tomato_leaf_curl_virus": {
+        "causes": ["virus_transmitted_by_whiteflies", "high_whitefly_population", "susceptible_varieties"],
+        "solutions": ["use_virus-resistant_varieties", "control_whitefly_with_yellow_sticky_traps_and_insecticides", "remove_and_destroy_infected_plants"]
+      }
+    },
+    "water_requirements": {
+      "critical_stages": ["flowering", "fruit_development"],
+      "efficiency_tips": ["Use drip irrigation or soaker hoses", "Water deeply and infrequently to encourage deep roots", "Mulch heavily to conserve moisture"]
+    }
+  },
+  "gram_(chickpea)": {
+    "common_pests": ["Gram Pod Borer", "Termites", "Cutworms"],
+    "growth_stages": ["germination", "vegetative", "flowering", "pod_formation", "maturity"],
+    "common_issues": {
+      "wilt_disease": {
+        "causes": ["fusarium_oxysporum_fungus", "infected_soil_and_seed", "warm_soil_temperatures"],
+        "solutions": ["use_wilt-resistant_varieties", "practice_long-term_crop_rotation", "treat_seeds_with_fungicide_before_sowing"]
+      },
+      "ascochyta_blight": {
+        "causes": ["fungal_pathogen", "cool_and_cloudy_weather", "infected_crop_residue"],
+        "solutions": ["use_certified_clean_seed", "apply_foliar_fungicides", "deep_plow_to_bury_infected_residue"]
+      }
+    },
+    "water_requirements": {
+      "critical_stages": ["late_vegetative_stage", "pod_formation"],
+      "efficiency_tips": ["Generally grown as a rainfed (barani) crop", "One pre-sowing irrigation ensures good germination", "One supplemental irrigation at pod filling can significantly increase yield"]
+    }
+  },
+  "sunflower": {
+    "common_pests": ["Jassids", "Whitefly", "Hairy Caterpillar", "Birds (at maturity)"],
+    "growth_stages": ["germination", "vegetative", "budding", "flowering", "seed_development", "maturity"],
+    "common_issues": {
+      "charcoal_rot": {
+        "causes": ["soil-borne_fungus", "high_soil_temperatures_and_drought_stress", "infected_crop_debris"],
+        "solutions": ["practice_crop_rotation_with_non-host_crops", "maintain_adequate_soil_moisture", "use_tolerant_hybrids"]
+      },
+      "poor_seed_set": {
+        "causes": ["lack_of_pollinators_(bees)", "high_temperatures_during_flowering", "boron_deficiency"],
+        "solutions": ["introduce_beehives_near_the_field", "adjust_planting_time", "apply_boron_at_bud_stage"]
+      }
+    },
+    "water_requirements": {
+      "critical_stages": ["bud_initiation", "flowering", "seed_filling"],
+      "efficiency_tips": ["Irrigate at critical stages to avoid yield loss", "Furrow irrigation is commonly used", "Withstand drought better than many crops but irrigation boosts yield"]
+    }
+  },
+  "canola_rapeseed": {
+    "common_pests": ["Aphids", "Painted Bug", "Diamondback Moth"],
+    "growth_stages": ["germination", "rosette", "bolting", "flowering", "pod_filling", "ripening"],
+    "common_issues": {
+      "alternaria_blight": {
+        "causes": ["fungal_pathogen", "high_humidity_and_rain_during_flowering", "infected_seed"],
+        "solutions": ["use_disease-free_seed", "apply_foliar_fungicides", "avoid_overhead_irrigation"]
+      },
+      "shattered_pods": {
+        "causes": ["late_harvesting", "variety_susceptibility", "strong_winds_when_mature"],
+        "solutions": ["harvest_at_optimal_maturity", "grow_shatter-resistant_varieties", "swath_the_crop_if_direct_heading_is_not_possible"]
+      }
+    },
+    "water_requirements": {
+      "critical_stages": ["flowering", "pod_development"],
+      "efficiency_tips": ["Requires good moisture for germination", "Supplemental irrigation at flowering can prevent flower drop", "Tolerant to low water conditions once established"]
+    }
+  },
+  "dates": {
+    "common_pests": ["Red Palm Weevil", "Date Palm Borer", "Dubas Bug"],
+    "growth_stages": ["vegetative", "inflorescence_emergence", "pollination", "fruit_setting", "fruit_development_(kimri-khalal-rutab-tamar)", "harvest"],
+    "common_issues": {
+      "bayoud_disease": {
+        "causes": ["fusarium_oxysporum_fungus", "highly_contagious_through_soil_and_water", "susceptible_varieties"],
+        "solutions": ["plant_resistant_cultivars", "strict_quarantine_of_infected_areas", "solarize_soil_in_new_plantings"]
+      },
+      "fruit_rot": {
+        "causes": ["high_humidity_or_rain_during_ripening", "poor_aeration_within_bunches", "insect_damage"],
+        "solutions": ["cover_fruit_bunches_with_paper_or_plastic_covers", "thin_fruit_to_improve_air_circulation", "control_primary_insect_pests"]
+      }
+    },
+    "water_requirements": {
+      "critical_stages": ["pollination", "fruit_development"],
+      "efficiency_tips": ["Extremely drought tolerant but require irrigation for commercial yield", "Basin or flood irrigation is common", "Drip irrigation is highly efficient for date palms"]
+    }
+  },
+  "chilies": {
+    "common_pests": ["Thrips", "Mites", "Whitefly", "Fruit Borer"],
+    "growth_stages": ["nursery", "transplanting", "vegetative_growth", "flowering", "fruit_development", "ripening"],
+    "common_issues": {
+      "chilli_leaf_curl_virus": {
+        "causes": ["virus_transmitted_by_whiteflies", "high_pest_population", "infected_weeds_as_hosts"],
+        "solutions": ["use_resistant_hybrids", "control_whitefly_from_nursery_stage", "practice_field_sanitation"]
+      },
+      "dieback_and_fruit_rot": {
+        "causes": ["anthracnose_fungus", "rain_and_high_humidity", "infected_seed"],
+        "solutions": ["use_healthy_disease-free_seed", "apply_copper-based_or_other_recommended_fungicides", "practice_crop_rotation"]
+      }
+    },
+    "water_requirements": {
+      "critical_stages": ["flowering", "fruiting"],
+      "efficiency_tips": ["Adopt drip irrigation to reduce water use and fungal diseases", "Mulch to maintain soil moisture", "Avoid waterlogging as chilies are sensitive"]
+    }
+  },
+    "groundnut": {
+    "common_pests": ["Aphids", "White Grub", "Termites", "Leaf Miner"],
+    "growth_stages": ["germination", "vegetative", "flowering", "pegging", "pod_formation", "maturity"],
+    "common_issues": {
+      "tikka_leaf_spot": {
+        "causes": ["fungal_pathogen", "warm_and_humid_conditions", "infected_crop_debris"],
+        "solutions": ["use_resistant_varieties", "apply_preventive_fungicides", "remove_and_burn_infected_plant_debris"]
+      },
+      "aflatoxin_contamination": {
+        "causes": ["aspergillus_flavus_fungus", "end-of-season_drought_stress", "improper_drying_and_storage"],
+        "solutions": ["ensure_timely_harvesting", "avoid_drought_stress_during_pod_filling", "dry_pods_quickly_to_safe_moisture_level"]
+      }
+    },
+    "water_requirements": {
+      "critical_stages": ["flowering", "pegging", "pod_development"],
+      "efficiency_tips": ["Mainly a rainfed crop in barani areas", "Sprinkler irrigation is effective", "Withhold irrigation at maturity for easier harvesting"]
+    }
+  },
+  "lentil": {
+    "common_pests": ["Aphids", "Pod Borer", "Cutworm"],
+    "growth_stages": ["germination", "vegetative", "flowering", "pod_filling", "maturity"],
+    "common_issues": {
+      "rust": {
+        "causes": ["fungal_pathogen", "mild_temperatures_and_high_humidity", "dense_planting"],
+        "solutions": ["grow_rust-resistant_varieties", "use_fungicidal_sprays_if_severe", "wider_row_spacing"]
+      },
+      "blight": {
+        "causes": ["ascochyta_lentis_fungus", "cool_and_wet_weather", "infected_seed_and_stubble"],
+        "solutions": ["use_certified_clean_seed", "practice_crop_rotation_of_at_least_3_years", "foliar_fungicide_application"]
+      }
+    },
+    "water_requirements": {
+      "critical_stages": ["flowering", "pod_filling"],
+      "efficiency_tips": ["Highly drought-tolerant and suitable for rainfed areas", "Protective irrigation during a dry spell at flowering can secure yield", "Good germination depends on moisture from residual monsoon rains"]
+    }
+  },
+  "tobacco": {
+    "common_pests": ["Aphids", "Whitefly", "Budworm", "Cutworm"],
+    "growth_stages": ["nursery", "transplanting", "vegetative_growth", "topping", "suckering", "maturity_and_ripening"],
+    "common_issues": {
+      "frog_eye_leaf_spot": {
+        "causes": ["fungus", "high_humidity", "crowded_seedbeds"],
+        "solutions": ["ensure_good_air_circulation_in_nursery", "apply_recommended_fungicides", "remove_lower_infected_leaves"]
+      },
+      "mosaic_virus_(TMV)": {
+        "causes": ["virus_transmitted_mechanically_by_workers", "infected_plant_debris", "use_of_tobacco_products_by_workers"],
+        "solutions": ["practice_strict_field_hygiene_(wash_hands)", "avoid_using_tobacco_while_working", "remove_and_destroy_infected_plants"]
+      }
+    },
+    "water_requirements": {
+      "critical_stages": ["immediately_after_transplanting", "rapid_leaf_expansion_phase"],
+      "efficiency_tips": ["Requires careful water management", "Over-irrigation can lead to poor quality leaves", "Furrow irrigation is commonly practiced"]
+    }
+  },
+  "banana": {
+    "common_pests": ["Banana Weevil", "Nematodes", "Aphids"],
+    "growth_stages": ["suckering", "vegetative_growth", "shooting_(bunch_emergence)", "fruit_filling", "harvesting"],
+    "common_issues": {
+      "panama_disease_(fusarium_wilt)": {
+        "causes": ["soil-borne_fungus_(fusarium_oxysporum)", "infected_planting_material", "poor_drainage"],
+        "solutions": ["use_tissue-cultured_disease-free_plants", "plant_resistant_varieties_(like_G9)", "improve_soil_health_and_drainage"]
+      },
+      "bunchy_top_virus_(BBTV)": {
+        "causes": ["virus_spread_by_banana_aphids", "infected_suckers", "lack_of_quarantine"],
+        "solutions": ["eradicate_and_destroy_all_infected_plants_in_the_area", "control_aphid_populations", "plant_certified_virus-free_material"]
+      }
+    },
+    "water_requirements": {
+      "critical_stages": ["vegetative_growth", "fruit_development"],
+      "efficiency_tips": ["High water requirement", "Drip irrigation is the most efficient method", "Mulching is very effective to conserve moisture and suppress weeds"]
+    }
+  },
+  "guava": {
+    "common_pests": ["Fruit Fly", "Mealybug", "Scale Insects"],
+    "growth_stages": ["vegetative", "flowering", "fruit_set", "fruit_development", "maturity_and_harvesting"],
+    "common_issues": {
+      "guava_wilt": {
+        "causes": ["fungal_pathogens_in_soil", "root_damage_from_nematodes", "waterlogging"],
+        "solutions": ["improve_soil_organic_matter", "practice_soil_solarization_before_planting", "ensure_proper_drainage"]
+      },
+      "anthracnose": {
+        "causes": ["fungus", "high_humidity_and_rain", "poor_pruning_and_air_circulation"],
+        "solutions": ["prune_trees_for_better_airflow", "apply_copper-based_fungicides_before_and_after_rain", "remove_infected_twigs_and_fruits"]
+      }
+    },
+    "water_requirements": {
+      "critical_stages": ["flowering", "fruit_development"],
+      "efficiency_tips": ["Drought-tolerant once established but needs water for good fruiting", "Ring basin or drip irrigation is effective", "Reduce watering before harvest to improve fruit quality"]
+    }
+  }
+}
