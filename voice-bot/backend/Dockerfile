@@ -10,11 +10,11 @@ WORKDIR /app
 # Copy requirements first for caching
 COPY requirements.txt .
 
-# Install dependencies efficiently
+# Install dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy all project files
-COPY backend/ .
+# Copy all project files (this folder)
+COPY . .
 
 # Expose Railway port
 EXPOSE 8080
