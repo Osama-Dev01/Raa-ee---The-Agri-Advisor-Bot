@@ -9,6 +9,7 @@ requests
 
 librosa
 soundfile
+translate
 
 
 pydub
